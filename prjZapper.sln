@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prjZapper", "prjZapper\prjZapper.csproj", "{19DF3F1B-0303-45EF-9FA6-2B2822F1C1C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6BC6435-39DC-4D54-B4A8-C4EB57AEDFC7}"
+	ProjectSection(SolutionItems) = preProject
+		Question1.SQL = Question1.SQL
+		ZapperInput.json = ZapperInput.json
+		Instruction.txt = Instruction.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prjZapperTests", "prjZapperTests\prjZapperTests.csproj", "{E6D0ABB2-DDFE-45D7-A01E-BFA4285CAEB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19DF3F1B-0303-45EF-9FA6-2B2822F1C1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19DF3F1B-0303-45EF-9FA6-2B2822F1C1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19DF3F1B-0303-45EF-9FA6-2B2822F1C1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19DF3F1B-0303-45EF-9FA6-2B2822F1C1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6D0ABB2-DDFE-45D7-A01E-BFA4285CAEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D0ABB2-DDFE-45D7-A01E-BFA4285CAEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D0ABB2-DDFE-45D7-A01E-BFA4285CAEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D0ABB2-DDFE-45D7-A01E-BFA4285CAEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30429F7A-2A61-45F5-B67C-D99F5EA41773}
+	EndGlobalSection
+EndGlobal

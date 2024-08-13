@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.19" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Repository\" />
+    <None Remove="Model\" />
+    <None Remove="Middleware\" />
+    <None Remove="Repository\Concretes\" />
+    <None Remove="Repository\Contracts\" />
+    <None Remove="Utility\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repository\" />
+    <Folder Include="Model\" />
+    <Folder Include="Middleware\" />
+    <Folder Include="Repository\Concretes\" />
+    <Folder Include="Repository\Contracts\" />
+    <Folder Include="Utility\" />
+  </ItemGroup>
+</Project>

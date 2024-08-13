@@ -1,0 +1,26 @@
+Rebuild project
+Note : I Used .net core 7 as I'm using MACOS
+
+1. Question1 = Open Question1.SQL.
+
+Note for 2,3,4 - Use swagger
+
+2. Question2.0 = /Zapper/CheckUserSettings
+    Sample Payloads : JSON Format
+    {
+      "settings": "00110000",
+      "numberOfSettings": 3
+    }
+
+3. Question2.1 = /Zapper/uploadUserSettings
+  Multipart/form Data
+  select ZapperInput.json under the repo of solution.
+
+4. Question2.2 = /Zapper/generateUserSettings
+ Sample Payloads : JSON Format
+    {
+      "settings": "00110000",
+      "numberOfSettings": 3
+    }
+
+expected output : DOWNLOAD FILE
